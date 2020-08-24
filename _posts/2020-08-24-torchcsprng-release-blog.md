@@ -4,9 +4,9 @@ title: 'PyTorch framework for cryptographically secure random number generation,
 author: Team PyTorch
 ---
 
-[torchcsprng](https://github.com/pytorch/csprng) is a PyTorch [C++/CUDA extension](https://pytorch.org/tutorials/advanced/cpp_extension.html) that provides [cryptographically secure pseudorandom number generators](https://en.wikipedia.org/wiki/Cryptographically_secure_pseudorandom_number_generator) for PyTorch.
-
 One of the key components of modern cryptography is the pseudorandom number generator. Katz and Lindell stated, "The use of badly designed or inappropriate random number generators can often leave a good cryptosystem vulnerable to attack. Particular care must be taken to use a random number generator that is designed for cryptographic use, rather than a 'general-purpose' random number generator which may be fine for some applications but not ones that are required to be cryptographically secure."[1] Additionally, most pseudorandom number generators scale poorly to massively parallel high-performance computation because of their sequential nature. Others don’t satisfy cryptographically secure properties.
+
+[torchcsprng](https://github.com/pytorch/csprng) is a PyTorch [C++/CUDA extension](https://pytorch.org/tutorials/advanced/cpp_extension.html) that provides [cryptographically secure pseudorandom number generators](https://en.wikipedia.org/wiki/Cryptographically_secure_pseudorandom_number_generator) for PyTorch.
 
 ## torchcsprng overview 
 
